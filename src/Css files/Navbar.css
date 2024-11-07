@@ -1,0 +1,43 @@
+.NavbarMainDiv{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color:   #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.NavbarMainDiv h1{
+    color: blueviolet;
+    font-weight: bold;
+    font-family: Poppins;
+    letter-spacing: 1px;
+}
+.NavLinks{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.NavLinks button{
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 22px;
+    /* max-width: max-content; */
+    /* position: relative; */
+}
+.NavLinks button:hover{
+    color:tomato;
+    transform: scale(1.1);
+}
+.ProfilepicImg{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}

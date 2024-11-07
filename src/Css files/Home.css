@@ -1,0 +1,67 @@
+.HomeMainDiv
+{
+    min-height: 100vh;
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.HerosectionTotalDiv{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.HeroContents{
+    /* border: 1px solid black; */
+    font-family: Poppins;
+    text-align: start;
+    width: 400px;
+}
+.HeroContents button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    width: 230px;
+}
+.heroImg{
+    border: 1px solid black;
+    height: 500px;
+    width: 800px;
+    object-fit: cover;
+}
+.HeroContents h1{
+    font-family: Work+Sans;
+    font-size: 40px;
+}
+.HeroContents p{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    color: rgb(56, 53, 53);
+}
+.HeroContents span{
+    color: blueviolet;
+}
+
+
+@media(max-width:1200px) {
+    .heroImg{
+        border: 1px solid black;
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+    } 
+}
+
+

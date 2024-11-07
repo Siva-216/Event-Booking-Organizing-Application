@@ -1,0 +1,147 @@
+
+.SignupMainDiv {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #FFFAFA; /* Light background */
+  }
+  .signupcenterDiv{
+    display: flex;
+    column-gap: 30px;
+  }
+  .SignUpSD {
+    font-family: Poppins;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  .SignUpSD {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .SignUpSD svg{
+    font-size: 23px;
+    color : gray;
+    cursor: pointer;
+    
+  }
+  .SignUpSD h1 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .SignUpSD p {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 25px;
+  }
+  
+  .SignUpSD a {
+    color: #6c63ff; /* Primary color */
+    text-decoration: none;
+  }
+  
+  .SignUpSD a:hover {
+    text-decoration: underline;
+  }
+  
+  .SignupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .SignupForm input,select {
+    font-family: Poppins;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light input background */
+    color: #333;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .SignupForm input:focus {
+    border: 1px solid #6c63ff; /* Highlight on focus */
+  }
+  
+  .PasswordDiv {
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light input background */
+    
+  }
+  .PasswordDiv input
+  {
+    width: 375px;
+  }
+  .PasswordDiv svg{
+    position: absolute;
+    right: 15px;
+    bottom: 12px;
+  }
+  
+  /* .passwordInput input {
+    flex: 1;
+    padding-right: 40px; 
+  }
+  
+  .passwordInput span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #888;
+    font-size: 20px;
+  }
+  
+  .passwordInput span:hover {
+    color: #6c63ff;
+  }
+   */
+  .SignupForm button {
+    padding: 12px;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #fff;
+    background-color: #6c63ff; /* Primary button color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SignupForm button:hover {
+    background-color: #5548d4; /* Darker shade on hover */
+  }
+  
+  .SignUpSDImage img{
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+  }
+  .nameandGenderDiv{
+    column-gap: 10px;
+    display: flex;
+  }
+  .nameandGenderDiv input{
+    width: 400px;
+  }
+  .nameandGenderDiv select:focus{
+    border: 1px solid #6c63ff; /* Highlight on focus */
+  }

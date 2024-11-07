@@ -1,0 +1,121 @@
+
+.SigninMainDiv {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #FFFAFA; /* Light background */
+  }
+  .signincenterDiv{
+    display: flex;
+    column-gap: 30px;
+  }
+  /* .SigninSD {
+    font-family: Poppins;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  } */
+  .SigninSD {
+    font-family: Poppins;
+    width: 400px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .SigninSD svg{
+    font-size: 23px;
+    color : gray;
+    cursor: pointer;
+  }
+  .SigninSD h1 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .SigninSD p {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 25px;
+  }
+  
+  .SigninSD a {
+    color: #6c63ff; /* Primary color */
+    text-decoration: none;
+  }
+  
+  .SigninSD a:hover {
+    text-decoration: underline;
+  }
+  
+  .SigninForm {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .SigninForm input {
+    font-family: Poppins;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light input background */
+    color: #333;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .SigninForm input:focus {
+    border: 1px solid #6c63ff; /* Highlight on focus */
+  }
+  
+  .PasswordDiv {
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light input background */
+    
+  }
+  .PasswordDiv input
+  {
+    width: 375px;
+  }
+  .PasswordDiv svg{
+    position: absolute;
+    right: 15px;
+    bottom: 12px;
+    cursor: pointer;
+  }
+  .SigninForm button {
+    padding: 12px;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #fff;
+    background-color: #6c63ff; /* Primary button color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SigninForm button:hover {
+    background-color: #5548d4; /* Darker shade on hover */
+  }
+  
+  .SigninSDImage img{
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
+  }
